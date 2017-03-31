@@ -1,0 +1,14 @@
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/GenericDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/model/ProductDTO.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/util/JpaFactory.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/jpa/GenericJpaDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/PurchaseDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/jpa/JpaPurchaseDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/model/CustomerDTO.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/jpa/JpaCustomerDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/ProductDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/App.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/jpa/JpaProductDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/model/PurchaseDTO.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/dao/CustomerDao.java
+/media/vertiavo/Marek/IdeaProjects/AplBiznesowe/jpaexample/src/main/java/task/jpaexample/model/PurchaseItemDTO.java

@@ -1,0 +1,14 @@
+task/jpaexample/model/PurchaseDTO.class
+task/jpaexample/dao/GenericDao.class
+task/jpaexample/dao/CustomerDao.class
+task/jpaexample/model/ProductDTO.class
+task/jpaexample/dao/jpa/GenericJpaDao.class
+task/jpaexample/dao/jpa/JpaProductDao.class
+task/jpaexample/model/CustomerDTO.class
+task/jpaexample/util/JpaFactory.class
+task/jpaexample/model/PurchaseItemDTO.class
+task/jpaexample/App.class
+task/jpaexample/dao/ProductDao.class
+task/jpaexample/dao/jpa/JpaCustomerDao.class
+task/jpaexample/dao/jpa/JpaPurchaseDao.class
+task/jpaexample/dao/PurchaseDao.class
