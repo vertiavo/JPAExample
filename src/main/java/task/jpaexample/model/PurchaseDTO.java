@@ -20,7 +20,7 @@ import static org.eclipse.persistence.jpa.jpql.parser.Expression.SELECT;
         @NamedQuery(name = "PurchaseDTO.findByClient", query = "SELECT p FROM PurchaseDTO p LEFT JOIN FETCH p.customer WHERE p.customer.id = :pid"),
         @NamedQuery(name = "PurchaseDTO.findNonOrderedProducts", query = "SELECT p FROM ProductDTO p WHERE p.id NOT IN (SELECT p2.product.id FROM PurchaseItemDTO p2)"),
         @NamedQuery(name = "PurchaseDTO.findBestsellers", query =
-                "SELECT p FROM ProductDTO p GROUP BY p HAVING p.id = (SELECT p2.product.id FROM PurchaseItemDTO p2 GROUP BY p2 HAVING COUNT(p2.quantity) = (SELECT MAX(COUNT(p3.quantity)) FROM PurchaseItemDTO p3 GROUP BY p3))")
+                "SELECT p.product FROM PurchaseItemDTO p GROUP BY p.product HAVING COUNT(p.quantity) = (SELECT MAX(COUNT(p2.quantity)) FROM PurchaseItemDTO p2 GROUP BY p2.product)")
 })
 @Entity
 @Table(name = "PURCHASE", schema = "APP")

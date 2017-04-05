@@ -7,6 +7,7 @@
         <class>task.jpaexample.model.PurchaseDTO</class>
         <class>task.jpaexample.model.PurchaseItemDTO</class>
         <class>task.jpaexample.model.CourierDTO</class>
+        <shared-cache-mode>NONE</shared-cache-mode>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:derby:appdb;create=true"/>
