@@ -145,10 +145,10 @@ public class App {
         }
 
         // 2b) Wypisanie produktów, dla których łączna ilość zamówionych sztuk jest największa
-        System.out.println("Bestsellers:");
+        /*System.out.println("Bestsellers:");
         for (ProductDTO p : dao.findBestsellers()) {
             System.out.println(p);
-        }
+        }*/
 
         // 2c) Zmiana ceny wszystkich produktów o określony procent ceny
         System.out.println("Changing price");
